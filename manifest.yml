@@ -1,0 +1,4 @@
+applications:
+- name: gitactionstrapibtp
+  command: npm start
+  buildpack: nodejs_buildpack
