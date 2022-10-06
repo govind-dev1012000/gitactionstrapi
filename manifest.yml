@@ -7,3 +7,8 @@ applications:
   #   ADMIN_JWT_SECRET: BC11nl5HU39hUM64whCRww==
   #   JWT_SECRET: CQ3tk0ebr6Dco7K4JbGneA==
   #   API_TOKEN_SALT: JnPLYfQXK4c27QsoYYHiJA==
+  env:
+    APP_KEYS: ${{ secrets.CF_APPKEY }}
+    ADMIN_JWT_SECRET: ${{ secrets.CF_ADMINJWT }}
+    JWT_SECRET: ${{ secrets.CF_JWT }}
+    API_TOKEN_SALT: ${{ secrets.CF_APITOKEN }}
