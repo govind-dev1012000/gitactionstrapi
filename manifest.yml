@@ -8,7 +8,7 @@ applications:
   #   JWT_SECRET: CQ3tk0ebr6Dco7K4JbGneA==
   #   API_TOKEN_SALT: JnPLYfQXK4c27QsoYYHiJA==
   env:
-    APP_KEYS: 
-    ADMIN_JWT_SECRET: 
-    JWT_SECRET: 
-    API_TOKEN_SALT: 
+    APP_KEYS: Q8luWVq6jkWA9uo9KamEsg==,AOqvcziJQ/9I5N3eETBvpw==,B/V+mt+uL8wALyR4S0zhcA==,d7/vePg+YQ/76pmGIHJUPQ==
+    ADMIN_JWT_SECRET: BC11nl5HU39hUM64whCRww==
+    JWT_SECRET: CQ3tk0ebr6Dco7K4JbGneA==
+    API_TOKEN_SALT: JnPLYfQXK4c27QsoYYHiJA==
