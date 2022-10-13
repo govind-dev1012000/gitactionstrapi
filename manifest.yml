@@ -2,6 +2,7 @@ applications:
 - name: gitactionstrapibtp
   command: npm start
   buildpack: nodejs_buildpack
+  service: demodb
   # env:
   #   APP_KEYS: Q8luWVq6jkWA9uo9KamEsg==,AOqvcziJQ/9I5N3eETBvpw==,B/V+mt+uL8wALyR4S0zhcA==,d7/vePg+YQ/76pmGIHJUPQ==
   #   ADMIN_JWT_SECRET: BC11nl5HU39hUM64whCRww==

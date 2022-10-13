@@ -18,6 +18,6 @@ jobs:
           cf_api: https://api.cf.us10-001.hana.ondemand.com
           cf_username: ${{ secrets.CF_USER }}
           cf_password: ${{ secrets.CF_PASS }}
-          cf_org: c62be8e5trial
+          cf_org: 94fe3e77trial
           cf_space: dev
           command: push
